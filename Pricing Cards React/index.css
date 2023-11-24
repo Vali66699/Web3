@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200;300;400;500;700;800;900&family=Roboto+Condensed&family=Roboto:ital@1&display=swap');
+
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+.pricing-card {
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  max-width: 300px;
+  background-color: #602f6b;
+  background-size: cover; 
+}
+.pricing-card1 {
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  max-width: 300px;
+  background-color: silver; 
+  background-size: cover;
+}
+
+.pricing-card2 {
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(97, 97, 97, 0.2);
+  margin: 10px;
+  max-width: 300px;
+  background-color: gray;
+  background-size: cover;
+}
+
+
+
+img {
+  max-width: 100%;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-size: 16px;
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+button:hover {
+  background-color: #0057b3d8;
+}
